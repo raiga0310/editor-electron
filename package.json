@@ -1,0 +1,23 @@
+{
+  "name": "redit",
+  "version": "1.0.0",
+  "description": "自作エディタのよてい",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "raiga0310",
+  "license": "ISC",
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^9.0.5",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
