@@ -1,4 +1,4 @@
-import { ipcRenderer } from 'electron';
+import { ipcRenderer } from "electron";
 
 console.log(ipcRenderer.sendSync("synchronous-message", "ping"));
 ipcRenderer.on("asynchronous-reply", (event,arg) =>{
