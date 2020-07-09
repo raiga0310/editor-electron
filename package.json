@@ -4,7 +4,7 @@
   "description": "自作エディタのよてい",
   "main": "src/main/main.js",
   "scripts": {
-    "lint": "npx eslint src/ -c eslintrc.json --ext .ts",
+    "lint": "npx eslint src/ -c .eslintrc.json --ext .ts",
     "build:main": "esbuild --bundle src/main/main.ts --platform=node --outdir=src/main --external:electron",
     "build:renderer": "esbuild --bundle src/renderer/renderer.ts --platform=browser --outdir=src/renderer --external:electron",
     "start": "npm run build:main && npm run build:renderer && electron ."
