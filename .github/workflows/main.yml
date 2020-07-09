@@ -6,7 +6,7 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, develop ]
 
 jobs:
 
@@ -33,4 +33,4 @@ jobs:
     - name: esLint
       run: |
         npm install
-        npm  run lint
+        npm run lint
