@@ -31,5 +31,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: esLint
-      run:
+      run: |
+        npm install
         npm  run lint
